@@ -1,5 +1,6 @@
 import React from "react";
 import undrawBooks from "../assets/Undraw_Books.svg";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function Landing() {
   return (
@@ -8,7 +9,7 @@ export default function Landing() {
         <header>
           <div className="header__container">
             <div className="header__description">
-              <h1>Australia's most awarded online library platform</h1>
+              <h1>Canada's most awarded online library platform</h1>
               <h2>
                 Find your dream book with{" "}
                 <span className="purple">library</span>{" "}

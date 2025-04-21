@@ -10,9 +10,9 @@ import {
   faTimes,
   faBolt,
   faBookOpen,
-  faTags, faStar, faStarHalfAlt
+  faTags, faStar, faStarHalfAlt, faArrowLeft
 } from "@fortawesome/free-solid-svg-icons";
-library.add(faBars, faShoppingCart, faTimes, faBolt, faBookOpen, faTags, faStar, faStarHalfAlt);
+library.add(faBars, faShoppingCart, faTimes, faBolt, faBookOpen, faTags, faStar, faStarHalfAlt, faArrowLeft);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
